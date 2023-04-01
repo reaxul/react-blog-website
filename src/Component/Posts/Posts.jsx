@@ -4,9 +4,7 @@ const Posts = (props) => {
   const { author, authorImage, coverImage, id, publishDate, readTime, title } =
         props.blog;
     const handleTime = props.handleTime;
-    const handleBookmark = (blog) => {
-        console.log(blog);
-    }
+    const handleBookmark = props.handleBookmark;
   return (
     <div className="post-container">
       <div className="cover">

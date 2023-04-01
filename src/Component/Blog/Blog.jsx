@@ -4,7 +4,8 @@ import Posts from '../Posts/Posts';
 import './Blog.css'
 const Blog = () => {
     const [blogs, setBlogs] = useState([])
-    const [time,setTime]=useState(0)
+    const [time, setTime] = useState(0)
+    const [bookmark,setBookmark]=useState([])
     useEffect(() => {
         fetch('blogs.json')
             .then(res => res.json())
@@ -14,6 +15,10 @@ const Blog = () => {
         const newTime = time + parseInt(blog.readTime);
         setTime(newTime);
     }
+    const handleBookmark = (blog) => {
+        const newBookmark = [...bookmark, blog]
+        setBookmark(newBookmark)
+    }
     return (
         <div className='blog-container'>
             <div className='blogs'>
@@ -22,11 +27,12 @@ const Blog = () => {
                         key={blog.id}
                         blog={blog}
                         handleTime={handleTime}
+                        handleBookmark={handleBookmark}
                     ></Posts>)
                 }
             </div>
             <div className='bookmarked'>
-                <Bookmarked time={time}></Bookmarked>
+                <Bookmarked time={time} bookmark={bookmark}></Bookmarked>
             </div>
         </div>
     );
