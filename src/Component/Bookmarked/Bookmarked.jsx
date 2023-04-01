@@ -8,13 +8,11 @@ const Bookmarked = (props) => {
       </div>
       <div className="bookmark-container">
         <h3>Bookmarked Blogs: {props.bookmark.length}</h3>
-              {
-                  props.bookmark.map((eachBookmark) => (
-          <div className="bookmark-item">
+        {props.bookmark.map((eachBookmark, index) => (
+          <div key={index} className="bookmark-item">
             <h4>{eachBookmark.title}</h4>
           </div>
-                  ))
-              }
+        ))}
       </div>
     </div>
   );
