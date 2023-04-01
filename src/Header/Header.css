@@ -1,0 +1,21 @@
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.attribute{
+    display: flex;
+    text-align: center;
+    
+    align-items: center;
+}
+.attribute a{
+    margin-right: 10px;
+    color: #6047EC;
+    font: bold;
+    text-decoration: none;
+}
