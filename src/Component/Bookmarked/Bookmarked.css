@@ -1,0 +1,21 @@
+.spent-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.spent-time h3 {
+    color: #6047EC;
+    text-align: center;
+}
+
+.bookmark-container {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 15px;
+}
+.bookmark-item{
+    background: #FFFFFF;
+    padding: 10px;
+}

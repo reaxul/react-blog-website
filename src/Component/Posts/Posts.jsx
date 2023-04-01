@@ -1,10 +1,12 @@
 import React from "react";
 import "./Post.css";
-const Posts = ({ blog }) => {
-  console.log(blog);
+const Posts = (props) => {
   const { author, authorImage, coverImage, id, publishDate, readTime, title } =
-    blog;
-  console.log(publishDate);
+        props.blog;
+    const handleTime = props.handleTime;
+    const handleBookmark = (blog) => {
+        console.log(blog);
+    }
   return (
     <div className="post-container">
       <div className="cover">
@@ -21,8 +23,8 @@ const Posts = ({ blog }) => {
           </div>
         </div>
         <div className="read-time">
-          <small>{readTime}</small>
-          <svg
+          <small>{readTime} min</small>
+          <svg onClick={()=>handleBookmark(props.blog)}
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
@@ -40,7 +42,9 @@ const Posts = ({ blog }) => {
       </div>
       <div>
         <h2>{title}</h2>
-        <h5 className="mark">Mark as read</h5>
+        <h5 onClick={() => handleTime(props.blog)} className="mark">
+          Mark as read
+        </h5>
       </div>
       <hr />
     </div>

@@ -5,16 +5,16 @@
         "title": "5 Tips for Writing Clean Code",
         "coverImage": "https://plus.unsplash.com/premium_photo-1661270437172-97ae8d858a80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "authorImage": "https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?w=996&t=st=1680328320~exp=1680328920~hmac=dadfb1f7a9dadbfdb7b679a2f5e19bf7af4097f62af02642f6c0d6146d95d233",
-        "readTime": "5 min",
+        "readTime": "5",
         "publishDate": "2022-01-01"
       },
       {
         "id": 2,
         "author": "John Doe",
-        "title": "10 Common Programming Mistakes and How to Avoid Them",
+        "title": "10 Common Prograg Mistakes and How to Avoid Them",
         "coverImage": "https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
         "authorImage": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=826&t=st=1680328307~exp=1680328907~hmac=d4aaccc207b034f51f962e1b32861ebd10dd5175f51798e2b96011e796285172",
-        "readTime": "10 min",
+        "readTime": "10",
         "publishDate": "2022-02-01"
       },
       {
@@ -23,7 +23,7 @@
         "title": "Introduction to Machine Learning with Python",
         "coverImage": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "authorImage": "https://img.freepik.com/free-photo/portrait-modern-man_23-2147960990.jpg?w=740&t=st=1680328302~exp=1680328902~hmac=b60a682f7554c40405bc073176c0ed3bcf9c81fe92b152d4d980122a7d92c875",
-        "readTime": "15 min",
+        "readTime": "15",
         "publishDate": "2022-03-01"
       },
       {
@@ -32,7 +32,7 @@
         "title": "How to Debug Your Code Like a Pro",
         "coverImage": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "authorImage": "https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?w=996&t=st=1680328296~exp=1680328896~hmac=1b30445c42ecee8eb41a28892c7e55da079bc0285e89bd1a21d61db91992035e",
-        "readTime": "8 min",
+        "readTime": "8",
         "publishDate": "2022-04-01"
       }
     ]
