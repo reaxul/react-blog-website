@@ -1,0 +1,42 @@
+.cover img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.author img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 8px;
+}
+.author small{
+    color: rgba(17, 17, 17, 0.6);
+}
+.author h3{
+    margin: 0;
+}
+.read-time svg{
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.read-time{
+    color: rgba(17, 17, 17, 0.6);
+}
+.mark{
+    color: #6047EC;
+    text-decoration: underline;
+    cursor: pointer;
+}

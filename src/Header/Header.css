@@ -1,4 +1,4 @@
-img{
+.attribute img{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -19,3 +19,8 @@ img{
     font: bold;
     text-decoration: none;
 }
+hr{
+    margin-bottom: 30px;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+}
+  
