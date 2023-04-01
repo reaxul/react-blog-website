@@ -17,8 +17,9 @@ const Blog = () => {
     const newTime = time + parseInt(blog.readTime);
     setTime(newTime);
   };
-  const handleBookmark = (blog) => {
-    bookmark.length && toast("Already bookmarked!");
+    const handleBookmark = (blog) => {
+        console.log(bookmark.indexOf(blog));
+    bookmark.indexOf(blog)+1 && toast("Already bookmarked!");
     const newBookmark = [...bookmark, blog];
     setBookmark(newBookmark);
   };
